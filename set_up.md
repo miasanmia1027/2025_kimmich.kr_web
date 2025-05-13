@@ -13,6 +13,24 @@
 2. 파이썬과 DB 연결하기
 3. 사이트에 어떤 모습이 보일지 최종 정리
 4. 시작
+# HTML 구성
+### 할일 page
+1. 오늘의 할일
+2. 카카오 데이터 
+-> https://developers.kakao.com/docs/latest/ko/talkcalendar/rest-api#calendar-get-list
+3. 어제 밀린 할일
+### 총무 page
+1. 입금(내용,가격)
+2. 출금(내용,가격)
+### 오늘의 하루 page
+1. 수면 패턴 기록
+2. 감사한 일 
+- 여기는 아직 생각중
+
+
+
+
+
 
 
 
@@ -37,5 +55,3 @@ PostgreSQL (서버 or 클라우드)
 [외부 연동]
 카카오 캘린더 API → FastAPI에서 처리
 ```
-
-

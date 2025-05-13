@@ -1,5 +1,5 @@
 # D:
-# D:\AHN\Codng\python\2025_kimmich.kr_web
+# cd D:\AHN\Codng\python\2025_kimmich.kr_web
 # uv pip install -r requirements.txt
 Flask
 

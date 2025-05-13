@@ -1,16 +1,32 @@
 from flask import Flask
-from markupsafe import escape
 
-app = Flask(__name__)
+def create_app():
+    app = Flask(__name__)
 
-@app.route("/") # route == 디코더가 Flask에거 어떤 url을 쓸지 알려준다
-def hello_world():
-    return "<p>Hello, World!</p>"
+    @app.route('/')
+    def hello_pybo():
+        return 'Hello, Pybo!'
 
-name = "안동건"
-@app.route("/ahn") 
-def hello_world():
-    return f"Hello, {name}"
+    return app
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
